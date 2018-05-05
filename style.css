@@ -1,0 +1,63 @@
+.w3-theme-l5 {
+  color:#000;
+  background-color:#f6f6f6;
+  text-align: center;
+}
+.w3-theme-l4 {
+  color:#000;
+  background-color:#dfdfdf;
+  text-align: center;
+}
+.w3-theme-l3 {
+  color:#000;
+  background-color:#c0c0c0;
+  text-align: center;
+}
+.w3-theme-l2 {
+  color:#fff;
+  background-color:#a0a0a0;
+  text-align: center;
+}
+.w3-theme-l1
+{color:#fff;
+  background-color:#818181;
+  text-align: center;
+}
+.w3-theme-d1 {
+  color:#fff;
+  background-color:#575757;
+  text-align: center;
+}
+.w3-theme-d2 {
+  color:#fff;
+  background-color:#4e4e4e;
+  text-align: center;
+}
+.w3-theme-d3 {
+  color:#fff;
+  background-color:#444444;
+  text-align: center;
+}
+.w3-theme-d4 {
+  color:#fff;
+  background-color:#3a3a3a;
+  text-align: center;
+}
+.w3-theme-d5 {
+  color:#fff;
+  background-color:#303030;
+  text-align: center;
+}
+.w3-theme {
+  color:#fff;
+  background-color:#616161;
+  text-align: center;
+}
+.w3-text-theme {
+  color:#616161;
+  text-align: center;
+}
+.w3-border-theme {
+  border-color:#616161;
+  text-align: center;
+}
