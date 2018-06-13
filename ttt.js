@@ -1,6 +1,7 @@
 var canvas = document.getElementById('ttt');
 var ctx = canvas.getContext('2d');
 var msg = document.getElementById('message');
+var reset = document.getElementById('reset');
 var cellSize = 100;
 var map = [
   0,
@@ -52,6 +53,24 @@ canvas.addEventListener("mousemove", function(e) {
 canvas.addEventListener("click", function(e) {
   play(getCellByCoords(mouse.x, mouse.y));
 });
+
+function resetBoard() {
+  map = [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ];
+  gameOver = false;
+  winCells = [];
+  currentPlayer = X;
+  displayTurn();
+}
 
 displayTurn();
 

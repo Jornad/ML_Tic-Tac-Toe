@@ -1,3 +1,19 @@
+.button {
+  background-color: #3a3a3a;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-allign: center;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4e4e4e;
+}
+
 .w3-theme-l5 {
   color: #000;
   background-color: #f6f6f6;
