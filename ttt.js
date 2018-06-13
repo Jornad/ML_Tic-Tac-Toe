@@ -82,7 +82,7 @@ function play(cell) {
     var bit = 1;
     for (var i = map.length - 1; i >= 0; i--) {
       if ((bit & winCheck) == bit) {
-        winCells.push(1);
+        winCells.push(i);
       }
       bit <<= 1;
     }
